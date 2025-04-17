@@ -1,0 +1,85 @@
+    body {
+      background-image: url("../img/arkaplan1.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Kutuların arka planı tamamen kaldırıldı */
+    header, nav, main, footer {
+      margin: 20px;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      color: #5a3e36;
+      margin: 0;
+    }
+
+    header p {
+      font-style: italic;
+      color: #7b5c4d;
+      font-size: 18px;
+    }
+
+    nav {
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #5a3e36;
+      margin: 0 10px;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: rgba(255, 255, 255, 0.4);
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+
+    main {
+      text-align: center;
+    }
+
+    main h2 {
+      font-size: 32px;
+      color: #5a3e36;
+      margin-bottom: 15px;
+    }
+
+    main h3 {
+      font-size: 28px;
+      color: #7b5c4d;
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
+
+    .intro-text {
+      font-size: 22px;
+      font-weight: 600;
+      color: #3b2f2b;
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style-type: square;
+      font-size: 20px;
+      font-weight: bold;
+      color: #5a3e36;
+      padding-left: 0;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #5a3e36;
+    }
