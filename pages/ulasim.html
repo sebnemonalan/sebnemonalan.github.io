@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ulaşım - Gezi Rehberi</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body class="default">
+
+  <header>
+    <h1>Gezi Rehberi</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="yurtici.html">Yurt İçi Turlar</a></li>
+        <li><a href="yurtdisi.html">Yurt Dışı Turlar</a></li>
+        <li><a href="populer-rotalar.html">Popüler Rotalar</a></li>
+        <li><a href="tatil-paketleri.html">Tatil Paketleri</a></li>
+        <li><a href="oteller.html">Oteller</a></li>
+        <li><a href="ulasim.html">Ulaşım</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="sonuc.html">Ulaşım Bilgileri</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>Ulaşım Seçenekleri</h2>
+      <p>En hızlı ve konforlu ulaşım seçeneklerini inceleyin!</p>
+
+      <form id="transportForm">
+  <label for="transportType">Ulaşım Türü Seçin:</label>
+  <select id="transportType" name="transportType">
+    <option value="bus">Otobüs</option>
+    <option value="plane">Uçak</option>
+    <option value="ship">Gemi</option>
+  </select>
+
+  <label for="departureDate">Kalkış Tarihi:</label>
+  <input type="date" id="departureDate" name="departureDate" required>
+
+  <button type="submit">Rezervasyon Yap</button>
+</form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gezi Rehberi. Tüm hakları saklıdır.</p>
+  </footer>
+
+  <script src="../scripts/myscript.js"></script>
+</body>
+</html>
